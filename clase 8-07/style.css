@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://selecciones.com.mx/wp-content/uploads/2015/03/no-se-sabe-como-los-gatos-regresan-a-casa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: azure;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav{
+    background-color: #d8c6fa;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: #bf6956;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: #f2dad8;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(114, 114, 218);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #f0dfe7;
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(22,66, 110, 0.4);
+    color: aliceblue;
+}
